@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+  Copyright 2018 Maximilian Stark | Dakror <mail@dakror.de>
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+    http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE table SYSTEM "../../../Development/lml.dtd">
+<:noop>
+	<image id="overlay" style="pixel" width="{UI_W}" height="{UI_H}" color="invis" visible="false" touchable="enabled" />
+
+	<:calculate key="w" value="{UI_W}+40" />
+	<:calculate key="h" value="{UI_H}/4*3-80" />
+	<scrollpane id="saves" scrollingdisabledx="true" scrollingdisabledy="false" width="{w}" height="{h}" visible="false">
+		<verticalgroup id="saves_cont" touchable="enabled" padleft="16" width="{w}" height="{h}" groupalign="topleft" groupspace="10" />
+	</scrollpane>
+
+	<imagebutton id="button" style="menu" width="{BUILD_RING_ITEM_SIZE}" height="{BUILD_RING_ITEM_SIZE}" />
+
+	<:calculate key="h" value="{UI_H} + 64" />
+	<table id="menu" touchable="enabled" padtop="46" padleft="33" padbottom="50" padright="12" align="top" width="400" height="{h}" defaultheight="80" defaultalign="center" defaultgrowx="true" defaultspacetop="10" defaultcolspan="99" background="panel_metalDark">
+
+		<textbutton row="true" id="new_game" text="@menu.new_game" style="menu_item" />
+		<image row="true" style="button" height="1" align="top" />
+
+		<textbutton row="true" id="save_game" text="@menu.save_game" style="menu_item" />
+		<image row="true" style="button" height="1" align="top" />
+
+		<textbutton row="true" id="save_as" text="@menu.save_as" style="menu_item" />
+		<image row="true" style="button" height="1" align="top" />
+
+		<textbutton row="true" id="load_game" text="@menu.load_game" style="menu_item" />
+		<image row="true" style="button" height="1" align="top" />
+
+		<textbutton row="true" id="main_menu" text="@menu.main_menu" style="menu_item" />
+		<image row="true" style="button" height="1" align="top" />
+
+		<table row="true" width="300" expandX="true">
+			<volumebutton id="sfx" height="50" style="sound" expand="true" />
+			<imagebutton id="lang" height="50" style="lang" expand="true" />
+			<volumebutton id="music" height="50" style="music" expand="true" />
+		</table>
+		<image row="true" style="button" height="1" align="top" />
+
+		<label row="true" id="fps" align="top" pad="32"/>
+
+		<!-- <:cell row="true" grow="true" /> -->
+
+
+		<textbutton row="true" id="export" text="@menu.export" visible="true" style="menu_item" />
+		<textbutton row="true" id="import" text="@menu.import" visible="true" style="menu_item" />
+
+		<image row="true" style="button" height="1" align="top" />
+
+		<!-- QOL -->
+
+		<image row="true" style="button" height="1" align="top" />
+
+		<textbutton row="true" id="recording" text="Auto Screenshots" style="menu_item" visible="false" />
+	</table>
+	<image id="modal_overlay" style="pixel" width="{UI_W}" height="{UI_H}" color="invis" visible="false" touchable="enabled" />
+
+</:noop>

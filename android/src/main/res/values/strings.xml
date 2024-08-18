@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="select_button">Select</string>
+    <string name="skip_button">Skip</string>
+    <string name="external_files">
+        Android 11 has made it impossible for Apps to access the public storage of your phone.\n\n
+        This is vital for Drill Down to store save games in a place where they both are not deleted when you uninstall the app,
+        and also a place you can freely access to transfer the files to another device for instance.\n
+        If you want to have this access over your files, click on "Select" and choose or create a directory on your internal storage,
+        and select it for Drill Down to get access.\n\n
+        This directory will then be used to store and load save files.\n
+        Worthy of note: Expect some slow-down when opening the "Load Game" option in the game as
+        listing all the files takes considerably longer due to this change.\n\n
+        Click on "Skip" to only save files internally with no way for you to access them or create backups.\n
+        You can select an external location through an option in the main menu at a later date.
+    </string>
+</resources>

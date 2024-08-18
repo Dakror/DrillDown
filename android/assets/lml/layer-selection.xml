@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+  Copyright 2018 Maximilian Stark | Dakror <mail@dakror.de>
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+    http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE table SYSTEM "../../../Development/lml.dtd">
+<layerselection background="panel_boltsDetailSquare" pad="30" touchable="enabled" padright="50" pack="true">
+	<verticalgroup id="minerals" spacing="5" width="40" padright="20">
+		<image style="item_dirt"/>
+		<image style="item_clay"/>
+		<image style="item_c_ore"/>
+		<image style="item_fe_ore"/>
+		<image style="item_cu_ore"/>
+		<image style="item_sn_ore" visible="false"/>
+		<image style="item_crude_oil" visible="false"/>
+	</verticalgroup>
+	<table>
+		<imagebutton style="arrow_fast" id="up10" width="70" height="70" spacebottom="20" />
+		<:row />
+		<imagebutton style="arrow" id="up" width="70" height="70" />
+		<:row />
+		<label id="label" text="0" />
+		<:row />
+		<imagebutton style="arrow" id="down" width="70" height="70" />
+		<:row />
+		<imagebutton style="arrow_fast" id="down10" width="70" height="70" spacetop="20" />
+	</table>
+</layerselection>

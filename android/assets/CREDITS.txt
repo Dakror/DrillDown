@@ -1,0 +1,45 @@
+developed by Dakror Games
+email: mail@dakror.de
+Drill Down (c) Dakror Games 2017 - 2020
+all rights reserved
+
+Made with
+
+Libgdx
+
+Special thanks to
+
+aaahfire
+Lag_ 
+pip
+Woffums
+
+endeyfire - for beating the insane "only Water Wheels" challenge
+
+Graphics
+---
+Flag icons by Yummygum https://www.iconfinder.com/iconsets/142-mini-country-flags-16x16px
+All sorts of awesome assets by Kenney
+PLATFORMER ASSET PACK #4 By Cam Tatz
+Icons by ails.deviantart.com / Henrique Lazarini
+ 
+
+Music
+---
+"Impact Prelude" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0 License
+http://creativecommons.org/licenses/by/3.0/
+Fading into the Dream 
+by TeknoAXE
+Creative Commons Attribution 4.0 International License
+
+
+SFX
+---
+freesound.org
+ - juskiddink - https://freesound.org/people/juskiddink/sounds/66932/
+ - Benboncan - https://freesound.org/people/Benboncan/sounds/60178/
+ - MastersDisaster - https://freesound.org/people/MastersDisaster/sounds/223259/
+ - craftport - https://freesound.org/people/craftport/sounds/325244/
+ - GGEffex - https://freesound.org/people/CGEffex/sounds/97789/
+ - juskiddink - https://freesound.org/people/juskiddink/sounds/108641/

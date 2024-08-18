@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+  Copyright 2018 Maximilian Stark | Dakror <mail@dakror.de>
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+    http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE table SYSTEM "../../../Development/lml.dtd">
+<:noop>
+	<image id="overlay" style="pixel" width="{UI_W}" height="{UI_H}"
+		color="invis" visible="false" touchable="enabled" />
+	<:calculate key="w" value="{UI_W}+40" />
+	<:calculate key="h" value="{UI_H}/3*2-40" />
+	<scrollpane id="saves" scrollingdisabledx="true"
+		scrollingdisabledy="false" width="{w}" height="{h}" visible="false">
+		<verticalgroup id="saves_cont" touchable="enabled" padleft="16"
+			width="{w}" height="{h}" groupalign="topleft" groupspace="10" />
+	</scrollpane>
+	<image id="modal_overlay" style="pixel" width="{UI_W}" height="{UI_H}"
+		color="invis" visible="false" touchable="enabled" />
+</:noop>

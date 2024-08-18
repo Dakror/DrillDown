@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_button">Wählen</string>
+    <string name="skip_button">Überspringen</string>
+    <string name="external_files">
+        Android 11 hat eingeführt, dass Apps keinen Zugang mehr auf den öffentlichen Gerätespeicher haben.\n\n
+        Das ist jedoch essentiell für Drill Down, um Spielstände an einem Ort zu speichern, wo sie bei Deinstallation des Spiels
+        nicht gelöscht werden, und wo Sie als Nutzer freien Zugang haben, um die Dateien zu sichern oder auf andere Geräte zu übertragen.\n
+        Wenn Sie weiterhin Zugang auf diese Dateien haben wollen, klicken Sie bitte auf "Wählen" und wählen / erstellen ein Verzeichnis auf dem Gerätespeicher,
+        und wählen Sie dieses aus, um Drill Down Zugang zu gewähren.\n\n
+        Falls Sie das Spiel bereits gespielt hatten, so heißt der bestehende Ordner\n\n
+        \"TheQuarry\"\n\n
+        aus historischen Gründen, und befindet sich direkt auf dem Gerätespeicher.\n
+        Hinweis: Diese Funktionalität läuft leider nicht genau so schnell wie bisher,
+        daher rechnen Sie bitte mit ein bisschen Verzögerung bei der Auflistung bestehender Spielstände.\n\n
+        Klicken Sie auf "Überspringen", um Spielstände nur intern zu speichern und weder Kontrolle noch Sicherungsmöglichkeiten zu haben.\n
+        Über das Hauptmenü können Sie jederzeit einen Ordner anlegen oder ändern.</string>
+</resources>

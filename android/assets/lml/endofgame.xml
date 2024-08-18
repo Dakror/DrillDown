@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--
+  Copyright 2018 Maximilian Stark | Dakror <mail@dakror.de>
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+    http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE table SYSTEM "../../../Development/lml.dtd">
+<:noop>
+	<image id="overlay" style="pixel" width="{UI_W}" height="{UI_H}"
+		color="invis" visible="false" touchable="enabled" />
+
+	<window id="window" titlealignment="center" title="@ui.victory"
+		width="500" height="650" style="endwindow" modal="true" resizable="false"
+		movable="false">
+		<table>
+			<image style="button" height="1" align="top" colspan="2" growX="true"
+				pad="20" padtop="50" />
+			<:row />
+			<label wrap="true" text="@ui.victory_text" growX="true" align="top"
+				expand="true" colspan="2" />
+			<:row padTop="20" />
+			<!-- >textbutton id="stats" text="@ui.game_stats" height="80"
+				colspan="2" / -->
+
+			<:row growX="true" uniform="true" pad="10" padBottom="0" />
+			<textbutton id="leave" text="@ui.leave" height="80"
+				textalign="center" />
+			<textbutton id="stay" text="@ui.stay" height="80" />
+		</table>
+	</window>
+</:noop>

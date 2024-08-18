@@ -1,0 +1,16 @@
+apply plugin: "java-library"
+
+sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/", "gen/" ]
+
+
+eclipse.project {
+    name = appName + "-core"
+}
+
+compileJava {
+    options.release = 8
+}
+java.targetCompatibility = JavaVersion.VERSION_1_8

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg1Ha4bah+2ims3X1ONbswNSejB41z0RE2EABfKxNhOTYe4LThabOPzcQjPGNQrK44eZgJtTSQ2lUGYSTcvGcDRD06jKs551L9a20QoMTj/614kfErNN2au8jyVmlGi3pbRyFDg74Qret3ugcutU0qeuleKtC9lfIpeVom3rfxydjJ6Cf+MgRpRDDorfji0zpPhiesRq3PJj4PMlExBhwqkxbHgziofhQS4jYDjpxj5S+6OEzRApWaO+qmWXvw0Sml6slWUk47aW3iyPxqZ75omL8LP5E2fe/58TqaQl9VdbR8EDrYNWnm/IT8gtKqTHxmQyBa1OJZufoMuyWDi3UvQIDAQAB</string>
+
+    <string name="application_error">Interner Fehler: %d</string>
+    <string name="unlicensed_dialog_title">Nicht lizenzierte App</string>
+    <string name="unlicensed_dialog_body">Diese App ist nicht lizenziert.</string>
+    <string name="unlicensed_dialog_retry_body">Lizenzprüfung fehlgeschlagen, bitte Netzwerkverbindung überprüfen.</string>
+    <string name="restore_access_button">App kaufen</string>
+    <string name="retry_button">Wiederholen</string>
+    <string name="quit_button">Beenden</string>
+    <string name="no_filechooser_found">Es scheint als wäre keine App zum Dateien auswählen installiert. Ohne eine solche App können keine Spielstände extern gespeichert werden.</string>
+</resources>

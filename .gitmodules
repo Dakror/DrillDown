@@ -1,0 +1,6 @@
+[submodule "commons"]
+	path = commons
+	url = https://github.com/Dakror/gdx-commons.git
+[submodule "gdx-sfx"]
+	path = gdx-sfx
+	url = https://github.com/Dakror/gdx-sfx.git

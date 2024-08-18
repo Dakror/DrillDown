@@ -1,0 +1,1 @@
+include ':core', ':desktop', ':android', 'commons:core', 'commons:annotations', 'gdx-sfx:core', 'gdx-sfx:android', 'gdx-sfx:desktop'

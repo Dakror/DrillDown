@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+  Copyright 2018 Maximilian Stark | Dakror <mail@dakror.de>
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+    http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE table SYSTEM "../../../Development/lml.dtd">
+<prompt pad="30" resizable="false" movable="false" modal="true" titlealign="center">
+	<label wrap="true" colspan="2" width="500" id="label" align="top" />
+	<:row />
+	<textfield id="input" row="true" expandx="true" padtop="30" width="400"
+		height="40" colspan="2" fillx="" />
+	<:row />
+	<image style="button" height="1" colspan="2" width="500" />
+	<:row uniform="true" spaceleft="30" spaceright="30" spacetop="30" fillx="true"
+		height="80" />
+	<textbutton id="ok" text="@common.ok" />
+	<textbutton id="cancel" text="@common.cancel" />
+</prompt>

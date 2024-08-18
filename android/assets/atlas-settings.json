@@ -1,0 +1,12 @@
+{
+	"maxWidth": 2048,
+	"maxHeight": 2048,
+	"duplicatePadding": true,
+	"useIndexes": false,
+	"alias": false,
+	"square": false,
+	"stripWhitespaceX": false,
+	"stripWhitespaceY": false,
+	"filterMin": "Linear",
+	"filterMag": "Nearest"
+}

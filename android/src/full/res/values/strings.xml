@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg1Ha4bah+2ims3X1ONbswNSejB41z0RE2EABfKxNhOTYe4LThabOPzcQjPGNQrK44eZgJtTSQ2lUGYSTcvGcDRD06jKs551L9a20QoMTj/614kfErNN2au8jyVmlGi3pbRyFDg74Qret3ugcutU0qeuleKtC9lfIpeVom3rfxydjJ6Cf+MgRpRDDorfji0zpPhiesRq3PJj4PMlExBhwqkxbHgziofhQS4jYDjpxj5S+6OEzRApWaO+qmWXvw0Sml6slWUk47aW3iyPxqZ75omL8LP5E2fe/58TqaQl9VdbR8EDrYNWnm/IT8gtKqTHxmQyBa1OJZufoMuyWDi3UvQIDAQAB</string>
+
+    <string name="application_error">Internal error: %d</string>
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed.</string>
+    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
+    <string name="restore_access_button">Restore Access</string>
+    <string name="retry_button">Retry</string>
+    <string name="quit_button">Exit</string>
+    <string name="no_filechooser_found">There seems to be no application installed to select files. Without one you can\'t save files on your external storage.</string>
+</resources>

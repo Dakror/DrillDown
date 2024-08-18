@@ -134,3 +134,4 @@ screenshots/
 !launch4j/**
 *.keystore
 local.properties
+gradle.properties

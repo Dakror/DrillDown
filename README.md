@@ -10,4 +10,4 @@ The game needs 64-bit Java >= 11 and Android Studio to compile.
 
 1. Create a java keystore for code signing
 2. Enter the credentials into `gradle.properties`
-3. For Android run `gradle android:assembleFullRelease`, for PC run `desktop:dist` to get the runnable binaries
+3. For Android run `gradlew android:assembleFullRelease`, for PC run `gradlew desktop:dist` to get the runnable binaries
